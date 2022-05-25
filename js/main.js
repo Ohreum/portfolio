@@ -1,22 +1,21 @@
 window.addEventListener("load", () => {
-	let path="";
-	let path2="project2/index.html";
-	let path3="project3/index.html";
-
-	if(isMobile){
-		path="project1/mobile/index.html";
-	}
-	else{
-		path="project1/pc/index.html";
-	}
-
+	
 	let project1Btn=document.getElementsByClassName("project1")[0];
 	let project2Btn=document.getElementsByClassName("project2")[0];
 	let project3Btn=document.getElementsByClassName("project3")[0];
 
-	project1Btn.setAttribute("href", path);
-	project2Btn.setAttribute("href", path2);
-	project3Btn.setAttribute("href", path3);
+	function mobileLink(){
+		if(isMobile){
+			project1Btn.setAttribute("href","project1/mobile/index.html");			
+		}
+		else{
+			project1Btn.setAttribute("href","project1/pc/index.html");		
+		}
+		project2Btn.setAttribute("href", "project2/index.html");
+		project3Btn.setAttribute("href", "project3/index.html");		
+	}
+
+	mobileLink();
 
 	/*-----------------------메인 페이지 비디오-----------------------*/
 	let videoUrl=["video1", "video2", "video3"];
