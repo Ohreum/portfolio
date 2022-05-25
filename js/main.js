@@ -1,8 +1,6 @@
 window.addEventListener("load", () => {
 
 	let project1Btn=document.getElementsByClassName("project1")[0];
-	let project2Btn=document.getElementsByClassName("project2")[0];
-	let project3Btn=document.getElementsByClassName("project3")[0];
 
 	function mobileLink(){
 		if(isMobile){
@@ -10,9 +8,7 @@ window.addEventListener("load", () => {
 		}
 		else{
 			project1Btn.setAttribute("href", "project1/pc/index.html");		
-		}
-		project2Btn.setAttribute("href", "project2/index.html");
-		project3Btn.setAttribute("href", "project3/index.html");		
+		}	
 	}
 
 	mobileLink();
