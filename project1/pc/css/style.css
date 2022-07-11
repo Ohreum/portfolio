@@ -11,6 +11,7 @@ a {
 body {
 	font-family: 'NanumSquare', sans-serif;
 	font-size: 1em;
+ 	overflow-x: hidden;
 }
 .clearfix::before, .clearfix::after {
 	content: "";
@@ -383,7 +384,7 @@ body {
 }
 #page2 .page2_inner {
 	margin: 0 auto;
-	width: 1700px;
+	width: 1255px;
 	padding: 150px 0 150px 0;
 }
 #page2 .page2_inner .key_text {
@@ -418,8 +419,8 @@ body {
 }
 #page2 .page2_inner .banner_zone .banner li {
 	float: left;
-	margin-left: 30px;
-	width: calc((100% - 90px)/4);
+	margin-left: 20px;
+	width: calc((100% - 60px)/4);
 	overflow: hidden;
 	opacity: 0;	
 	transform: translateY(100px);
@@ -459,7 +460,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .bakery span {
 	position: absolute;
 	top: 150px;
-	left: 128px;
+	left: 77px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
@@ -468,7 +469,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .bakery p {
 	position: absolute;
 	top: 250px;
-	left: 83px;
+	left: 35px;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -486,7 +487,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .bakery .plus {
 	position: absolute;
 	top : 400px;
-	left: 187px;
+	left: 137px;
 	transition-duration: 0.5s;
 }
 #page2 .page2_inner .banner_zone .banner .bakery:hover .plus,
@@ -498,7 +499,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .baking span {
 	position: absolute;
 	top: 150px;
-	left: 128px;
+	left: 77px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
@@ -506,7 +507,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .baking p {
 	position: absolute;
 	top: 250px;
-	left: 108px;
+	left: 60px;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -523,13 +524,13 @@ body {
 #page2 .page2_inner .banner_zone .banner .baking .plus {
 	position: absolute;
 	top : 400px;
-	left: 190px;
+	left: 137px;
 	transition-duration: 0.5s;	
 }
 #page2 .page2_inner .banner_zone .banner .sweet_bean span {
 	position: absolute;
  	top: 150px;
-	right: 126px;
+	left: 77px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
@@ -537,7 +538,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .sweet_bean p {
 	position: absolute;
 	top: 260px;
-	right: 110px;
+	right: 60px;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -554,13 +555,13 @@ body {
 #page2 .page2_inner .banner_zone .banner .sweet_bean .plus {
 	position: absolute;
 	top : 400px;
-	right: 187px;
+	right: 137px;
 	transition-duration: 0.5s;	
 }
 #page2 .page2_inner .banner_zone .banner .mix span {
 	position: absolute;
 	top: 150px;
-	left: 128px;
+	left: 77px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
@@ -568,7 +569,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .mix p {
 	position: absolute;
 	top: 250px;
-	left: 108px;
+	left: 40px;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -585,7 +586,7 @@ body {
 #page2 .page2_inner .banner_zone .banner .mix .plus {
 	position: absolute;
 	top : 400px;
-	left: 190px;
+	left: 137px;
 	transition-duration: 0.5s;	
 }
 #page3 {
