@@ -20,7 +20,6 @@ img {
 }
 body {
 	min-width: 1480px;
-	overflow-x: hidden;
 	line-height: 1;
 	font-family: "Roboto","Noto Sans kr", sans-serif;
 	font-size: 1em;
